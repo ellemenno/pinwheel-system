@@ -3,7 +3,7 @@
 STL and source model files for a variable wing pinwheel system
 
 ## printing
-> the **hub_key** and **pin** parts must be matched to the number of **wings**.
+> note: the **hub_key** and **pin** parts must be matched to the number of **wings**.
 > all other parts are compatible with any number of wings.
 
 Parts for common configurations of 3&ndash;6 wings and holders with or without fins are pre-computed and available for download as STL models.
@@ -71,6 +71,6 @@ _after glue is cured_
 
 ## modifying
 
-The wing profile is defined in [`wing.ai`](./wing.ai), exported to [`wing.svg`](./wing.svg) for use in the OpenSCAD file.
+The wing profile is defined in `wing.ai`, exported to [`wing.svg`](./wing.svg) for use in the OpenSCAD file.
 
 All geometry is defined in [`pinwheel-system.scad`](./pinwheel-system.scad), to be rendered with [OpenSCAD](https://openscad.org/).
